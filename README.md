@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/m-rcd/chitter-api-front-end.svg?branch=master)](https://travis-ci.org/m-rcd/chitter-api-front-end)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
