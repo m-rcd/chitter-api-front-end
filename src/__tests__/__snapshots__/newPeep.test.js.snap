@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewPeep Snapshot 1`] = `
+<form>
+  <input
+    name="peep"
+    type="text"
+  />
+  <input
+    type="submit"
+    value="Submit"
+  />
+</form>
+`;

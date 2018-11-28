@@ -12,6 +12,18 @@ exports[`App Snapshot 1`] = `
     </p>
   </header>
   <div>
+    <form>
+      <input
+        name="peep"
+        type="text"
+      />
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+  <div>
     <div
       className="peeps"
     />
