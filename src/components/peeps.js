@@ -11,19 +11,17 @@ export default class Peep extends React.Component {
   componentDidMount() {
     fetch('https://chitter-backend-api.herokuapp.com/peeps')
       .then(response => response.json()).then((responseJson) => {
+        console.log(responseJson);
         const peeps = responseJson.map(peep => (
-          <div key={peep.id}>
+          <div id={peep.id}>
             <h3>
-              {' '}
               {peep.user.handle}
             </h3>
             <p>
-              {' '}
               {peep.body}
             </p>
             <h6>
               {peep.created_at}
-              {' '}
             </h6>
           </div>
         ));
